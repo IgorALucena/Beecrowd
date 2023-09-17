@@ -1,5 +1,5 @@
-let n = lines.shift(); // entrada separada
-let x = lines.shift().split(" ").map(Number) // entrada lado a lado de maneira indefinida.
+let n = lines.shift(); 
+let x = lines.shift().split(" ").map(Number);
 let contador = [];
 let restantes = 0;
 let invasoes = 0;
