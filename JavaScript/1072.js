@@ -18,11 +18,11 @@ var n = parseInt(lines.shift());
 var x = [];
 var contadorDentro = 0;
 var contadorFora = 0;
-for(let i = 0; i <n; i++){
+for(let i = 0; i<n; i++){
     x[i] = parseInt(lines.shift());
 }
 
-for ( let i = 0; i <x.length; i++){
+for ( let i = 0; i<x.length; i++){
     if(x[i] >= 10 && x[i] <= 20){
         contadorDentro++;
     }
